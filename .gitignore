@@ -1,0 +1,16 @@
+# Quartus 編譯產生物（可重新編譯產生）
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+*.qws
+*.bak
+*.rpt
+*.summary
+*.done
+*.pin
+*.sof
+*.pof
+*.jdi
+*.smsg

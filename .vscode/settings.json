@@ -1,0 +1,18 @@
+{
+    "files.exclude": {
+        "_hdl_checker": true,
+        "db": true,
+        "incremental_db": true,
+        "output_files": true,
+        "*.qdf": true,
+        "*.qpf": true,
+        "*.qsf.bak": true,
+        "*.htm": true,
+        "**/.git": true,
+        "**/.venv": true,
+        "**/__pycache__": true,
+    },
+    "files.associations": {
+        "variable.h": "verilog"
+    }
+}

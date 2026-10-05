@@ -1,0 +1,27 @@
+`define BLOCK_UNIT_WIDTH 10'd16
+`define BLOCK_UNIT_HEIGHT 10'd16
+`define BLOCK_UNIT_SIZE 256
+`define BLOCK_WIDTH 10'd32
+`define BLOCK_HEIGHT 10'd32
+`define BLOCK_MASK 10'd31
+`define BLOCK_SCALE 1
+`define TO_BLOCK_SHIFT 5
+
+`define MAP_LENGTH 2
+`define GOLD_LENGTH 2
+`define BRICK_LENGTH 3
+`define TOTAL_LENGTH 3
+
+`define KEYBOARD_TIMER 400_000
+`define JUMP_TIMER 80_000
+`define JUMP_TIMER_2 6_000_000
+`define WALKING_TIMER 6_000_000
+`define GFORCE_TIMER 32'd2_000_000
+`define Y_POS_TIMER 32'd1_250_000
+
+`define BG_COLOR 12'h33e
+
+`define GFORCE 32'd1
+`define JUMP_FORCE 32'd6
+`define JUMP_FORCE_2 32'd6
+`define GROUND 384
